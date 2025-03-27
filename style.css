@@ -10,13 +10,14 @@ body{
 .container{
     display: grid;
     grid-template:200px 200px 200px 200px/200px 200px 200px 200px;
-    background-color: whitesmoke;
+    background-color: #D9DDDC;
     grid-template-areas: "sidebar header header header"
     "sidebar card1 card2 card3"
     "sidebar card4  card5 card3"
     "sidebar   card6 card7 card8";
     gap: 30px;
     height: 100%;
+    width: 77%;
 
 }
 
