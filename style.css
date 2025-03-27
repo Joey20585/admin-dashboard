@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template:200px 200px 200px 200px/200px 200px 200px 200px;
+    background-color: whitesmoke;
+    grid-template-areas: "sidebar header header header"
+    "sidebar card1 card2 card3"
+    "sidebar card4  card5 card3"
+    "sidebar   card6 card7 card8";
+    gap: 30px;
+    height: 100%;
+
+}
+
+.hello{
+    margin-left: -180px;
+    margin-top: 40px;
+}
+
+.card{
+    font-family: 50%;
+    text-align: center;
+
+}
+
+#sidebar{
+    grid-area: sidebar;
+    background-color: #007FFF;
+    color: white;
+    border-color: #007FFF;
+    font-size: 15px;
+}
+#header{
+    grid-area: header;
+    background-color: white;
+    width: 47vw;
+}
+ .top{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 5px;
+    }
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 5px;
+    }
+
+    .btn{
+        background-color: #007FFF;
+        border-radius: 10px;
+        height: 20px;
+        width: 60px;
+        color: white;
+        border-color: #007FFF;
+        margin-top: 20px;
+    }
+
+
+
+.search{
+    border-radius: 10px;
+    width: 350px;
+    height: 15px;
+    background-color: whitesmoke;
+}
+
+#card1{
+    grid-area: card1;
+    font-size: 7px;
+    background-color: white;
+    box-shadow: -6px 0px #FFBF00;
+
+
+}
+#card2{
+    grid-area: card2;
+    font-size: 8px;
+    background-color: white;  
+    box-shadow: -6px 0px #FFBF00;
+  
+
+
+
+
+
+
+}
+#card3{
+    grid-area: card3;
+    font-size: 8px;
+    background-color: white;
+
+
+
+
+}
+#card4{    
+
+    grid-area: card4;
+    font-size: 8px;
+    background-color: white;
+    box-shadow: -6px 0px #FFBF00;
+
+
+}
+#card5{
+    grid-area: card5;
+    font-size: 8px;
+    background-color: white;
+    box-shadow: -6px 0px #FFBF00;
+
+
+
+}
+#card6{
+    grid-area: card6;
+    font-size: 8px;
+    background-color: white;
+    box-shadow: -6px 0px #FFBF00;
+
+
+
+}
+#card7{
+    grid-area: card7;
+    font-size: 8px;
+    background-color: white;
+    box-shadow: -6px 0px #FFBF00;
+
+
+}
+#card8{
+    grid-area: card8;
+    font-size: 8px;
+    background-color: white;
+
+
+}
+.trending {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+}
+.trends{
+    margin-top: -28px;
+}
+.project{
+    margin-top: -15px;
+}
+.trending h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.trend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.trend-item img {
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.trend-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-details .username {
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0;
+}
+
+.trend-details .project {
+    font-size: 7px;
+    color: gray;
+    margin: 0;
+}
